@@ -1,0 +1,11 @@
+aws-vault
+colordiff
+font-util
+gnu-time
+graphviz
+grep
+jq
+kubernetes-cli
+nkf
+sl
+z

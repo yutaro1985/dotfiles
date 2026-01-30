@@ -1,0 +1,4 @@
+font-cica
+font-google-sans-code
+git-credential-manager
+session-manager-plugin

@@ -1,0 +1,51 @@
+[tools]
+# ---- runtimes ----
+# global は利便性優先。プロジェクト側で pin & renovate で更新する方針。
+node = "24.11.1"
+python = "3.14.0"
+go = "latest"
+
+# ---- IaC / DevOps ----
+terraform = "latest"
+terraform-docs = "latest"
+tflint = "latest"
+golangci-lint = "latest"
+checkov = "latest"
+
+# ---- Cloud CLIs ----
+aws = { version = "latest", symlink_bins = "true" }
+gcloud = "latest"
+
+# ---- Kubernetes ----
+helm = "latest"
+kubectx = "latest"
+
+# ---- utilities ----
+shellcheck = "latest"
+uv = "latest"
+yq = "latest"
+bat = "latest"
+fzf = "latest"
+fd = "latest"
+peco = "latest"
+gh = "latest"
+trivy = "latest"
+act = "latest"
+usage = "latest"
+
+# ---- CLIs via npm ----
+"npm:@github/copilot" = "latest"
+"npm:vibe-kanban" = "latest"
+"npm:@openai/codex" = "latest"
+"npm:@google/gemini-cli" = "latest"
+"npm:textlint" = "latest"
+
+# ---- auth ----
+1password = "latest"
+
+[tasks.sl]
+description = "Run SL"
+run = "sl"
+
+[env]
+FOO = "VAR"
