@@ -98,7 +98,6 @@ dotfiles/
 
 - Rancher Desktop が管理する設定ブロックは変更しません
 - `mise activate fish` を使用し、shims の手動 PATH 追加は行いません
-- anyenv は使用していません（PATH から外す前提）
 
 ---
 
