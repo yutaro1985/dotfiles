@@ -80,7 +80,7 @@ mise doctor
 
 ## 構成
 
-```
+```bash
 dotfiles/
 ├── Brewfile                 # Homebrew（最小）
 ├── install.sh               # セットアップ用スクリプト（bash）
@@ -96,7 +96,6 @@ dotfiles/
 
 ## 補足
 
-- Rancher Desktop が管理する設定ブロックは変更しません
 - `mise activate fish` を使用し、shims の手動 PATH 追加は行いません
 
 ---
